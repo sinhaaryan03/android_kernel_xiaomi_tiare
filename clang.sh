@@ -16,7 +16,7 @@ export ARCH=arm64
 export KBUILD_BUILD_USER=techyminati
 export KBUILD_BUILD_HOST=xenodrome
 
-make O=out ARCH=arm msm8937_defconfig
+make O=out ARCH=arm tiare_defconfig
 
 # Compile plox
 compile() {
